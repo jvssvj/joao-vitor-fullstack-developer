@@ -1,0 +1,34 @@
+.about {
+    width: 100%;
+    max-width: 1500px;
+    padding: 0em 1em;
+    margin: 2em 0em;
+}
+
+.about__title,
+.about__description {
+    color: var(--white);
+}
+
+.about__title {
+    font-weight: var(--fontRegular);
+    font-size: var(--font32px);
+}
+
+.about__description {
+    font-weight: var(--fontLight);
+    font-size: var(--font20px);
+    margin-top: 1em;
+    line-height: 2em;
+}
+
+@media(max-width: 630px) {
+    .about__title {
+        font-size: var(--font24px);
+    }
+
+    .about__description {
+        font-size: var(--font16px);
+        margin-top: 1em;
+    }
+}

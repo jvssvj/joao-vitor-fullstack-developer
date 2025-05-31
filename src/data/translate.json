@@ -1,0 +1,74 @@
+{
+    "pt": {
+        "nav": {
+            "home": "Início",
+            "about": "Sobre mim",
+            "projects": "Projetos",
+            "contact": "Contatos"
+        },
+        "home": {
+            "welcome": "Bem-vindo(a), me chamo -",
+            "paragraph": "Explorando o frontend e o backend com criatividade.",
+            "question": "Vamos tirar ideias do papel?"
+        },
+        "about": {
+            "title": "Sobre mim...",
+            "description": "Sempre fui curioso e gostei de entender como as coisas funcionam. Desde pequeno, mexer no computador me chamava atenção — foi assim que descobri a programação. Hoje, gosto de transformar ideias em projetos reais, tanto no frontend quanto no backend. Meu objetivo é seguir evoluindo como desenvolvedor, sempre buscando aprender mais."
+        },
+        "projects": {
+            "title": "Projetos"
+        },
+        "footer": {
+            "name": "João Vitor",
+            "form": {
+                "title": "Entre em contato",
+                "nameLabel": "Seu Nome:",
+                "namePlaceholder": "Seu nome...",
+                "emailLabel": "Seu Email:",
+                "emailPlaceholder": "seuemail@email.com",
+                "messageLabel": "Sua Mensagem:",
+                "messagePlaceholder": "Sua mensagem..",
+                "send": "Enviar"
+            },
+            "social": {
+                "title": "Conecte-se"
+            }
+        }
+    },
+    "en": {
+        "nav": {
+            "home": "Home",
+            "about": "About me",
+            "projects": "Projects",
+            "contact": "Contact"
+        },
+        "home": {
+            "welcome": "Welcome, my name is -",
+            "paragraph": "Exploring frontend and backend with creativity.",
+            "question": "Shall we take ideas off the paper?"
+        },
+        "about": {
+            "title": "About me",
+            "description": "I've always been curious and loved understanding how things work. Since I was a child, using the computer caught my attention — and that's how I discovered programming. Today, I enjoy turning ideas into real projects, both in frontend and backend. My goal is to keep growing as a developer, always seeking to learn more."
+        },
+        "projects": {
+            "title": "Projects"
+        },
+        "footer": {
+            "name": "João Vitor",
+            "form": {
+                "title": "Get in touch",
+                "nameLabel": "Your Name:",
+                "namePlaceholder": "Your name...",
+                "emailLabel": "Your Email:",
+                "emailPlaceholder": "youremail@email.com",
+                "messageLabel": "Your Message:",
+                "messagePlaceholder": "Your message..",
+                "send": "Send"
+            },
+            "social": {
+                "title": "Connect with me"
+            }
+        }
+    }
+}

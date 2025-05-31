@@ -1,0 +1,50 @@
+@import url('../global/variables.css');
+
+.techs__container {
+    width: 100%;
+    min-height: 70px;
+    max-width: 1500px;
+    padding: 0em 1em;
+    background: var(--grey);
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.techs {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: max-content;
+    /*//Quebra a animação se colocar 100%*/
+    animation: scrollTechs 50s linear infinite;
+}
+
+.tech__container {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: var(--very-dark-blue);
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    min-width: max-content;
+}
+
+.tech__image {
+    width: 30px;
+}
+
+.tech__name {
+    color: var(--white);
+    font-size: var(--font16px);
+}
+
+@keyframes scrollTechs {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(var(--scroll-width) * -1));
+    }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "HTML",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+        "name": "CSS",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+        "name": "JavaScript",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+        "name": "TypeScript",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    },
+    {
+        "name": "Git",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    },
+    {
+        "name": "GitHub",
+        "image": "https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=FFFFFF"
+    },
+    {
+        "name": "Node.js",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    },
+    {
+        "name": "PostgreSQL",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+    },
+    {
+        "name": "Photoshop",
+        "image": "https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
+    },
+    {
+        "name": "Figma",
+        "image": "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000"
+    }
+]
