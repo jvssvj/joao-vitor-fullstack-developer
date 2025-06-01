@@ -7,6 +7,8 @@ export function renderTechs(techImg, techName) {
     img.src = techImg
     img.alt = `${techName} image`
     img.classList.add('tech__image')
+    img.style.width = '30px'
+    img.ariaHidden = true
 
     span.textContent = techName
     span.classList.add('tech__name')
