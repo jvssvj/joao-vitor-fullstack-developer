@@ -1,42 +1,42 @@
 [
     {
         "name": "HTML",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        "image": "./src/assets/images/html5.svg"
     },
     {
         "name": "CSS",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        "image": "./src/assets/images/css3.svg"
     },
     {
         "name": "JavaScript",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        "image": "./src/assets/images/javascript.svg"
     },
     {
         "name": "TypeScript",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        "image": "./src/assets/images/typescript.svg"
     },
     {
         "name": "Git",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        "image": "./src/assets/images/git.svg"
     },
     {
         "name": "GitHub",
-        "image": "https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=FFFFFF"
+        "image": "./src/assets/images/github.svg"
     },
     {
         "name": "Node.js",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        "image": "./src/assets/images/nodejs.svg"
     },
     {
         "name": "PostgreSQL",
-        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        "image": "./src/assets/images/postgresql.svg"
     },
     {
         "name": "Photoshop",
-        "image": "https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
+        "image": "./src/assets/images/photoshop.svg"
     },
     {
         "name": "Figma",
-        "image": "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000"
+        "image": "./src/assets/images/figma.svg"
     }
 ]

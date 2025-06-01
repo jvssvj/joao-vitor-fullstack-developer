@@ -2,3 +2,5 @@ Favicon
 Metatags
 Como vão buscar meu site?
 Adicionar o recurso do formulario
+Adicionar a rolagem da navegação
+Melhorar sobre mim
