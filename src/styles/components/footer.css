@@ -19,7 +19,7 @@
 }
 
 .footer__devname,
-.nav__home,
+.footer__nav__home,
 .footer__form__title,
 .footer__social__title {
     font-size: var(--font32px);
@@ -28,19 +28,21 @@
     margin-bottom: .5rem;
 }
 
-.nav__home {
+.footer__nav__home {
     cursor: pointer;
+    width: max-content;
 }
 
-.nav__about {
+.footer__nav__about {
     margin-bottom: .3rem;
 }
 
-.nav__about,
-.nav__projects {
+.footer__nav__about,
+.footer__nav__projects {
     font-size: var(--font16px);
     color: var(--white);
     cursor: pointer;
+    width: max-content;
 }
 
 /* form start */
@@ -83,6 +85,7 @@
 
 #message {
     min-height: 150px;
+    padding-top: .5rem;
 }
 
 #footer__form__send {
@@ -93,6 +96,11 @@
     border-radius: 1.5rem;
     height: 50px;
     margin-top: 1rem;
+    transition: .5s ease;
+}
+
+#footer__form__send:hover {
+    background-color: var(--grey);
 }
 
 /* form end */
@@ -115,6 +123,28 @@
     transition: .5s ease;
 }
 
+.footer__nav__items__item,
+.footer__social__nav__item {
+    position: relative;
+}
+
+.footer__nav__items__item::after,
+.footer__social__nav__item::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: var(--white);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s ease;
+}
+
+.footer__nav__items__item:hover::after,
+.footer__social__nav__item:hover::after {
+    width: 100%;
+}
+
 svg {
     width: 20px;
     height: 20px;
@@ -134,7 +164,7 @@ svg {
 @media(max-width: 630px) {
 
     .footer__devname,
-    .nav__home,
+    .footer__nav__home,
     .footer__form__title,
     .footer__social__title {
         font-size: var(--font24px);

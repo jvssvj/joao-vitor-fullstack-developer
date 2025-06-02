@@ -1,10 +1,10 @@
 [
     {
-        "name": "HTML",
+        "name": "HTML5",
         "image": "./src/assets/images/html5.svg"
     },
     {
-        "name": "CSS",
+        "name": "CSS3",
         "image": "./src/assets/images/css3.svg"
     },
     {

@@ -9,10 +9,9 @@
     justify-content: center;
     position: fixed;
     transition: .3s ease;
-    z-index: 2;
+    z-index: 3;
 }
 
-/* Estado com cor ao rolar */
 .header.scrolled {
     background: rgba(39, 62, 96, 1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -51,8 +50,30 @@
     outline: none;
 }
 
+/* in JS */
+/* in JS */
 .language-active {
     font-weight: var(--fontBold);
+}
+
+.header__nav__items__item {
+    position: relative;
+    width: max-content;
+}
+
+.header__nav__items__item::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: var(--white);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s ease;
+}
+
+.header__nav__items__item:hover::after {
+    width: 100%;
 }
 
 @media (max-width: 630px) {

@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: start;
     margin: 2em 0em;
+    scroll-margin-top: 100px;
 }
 
 .projects__title {

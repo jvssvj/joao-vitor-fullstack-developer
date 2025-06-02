@@ -25,7 +25,7 @@
     <meta name="twitter:image" content="https://joao-vitor-fullstack-developer.vercel.app/meta-preview.png">
 
 
-
+    <link rel="shortcut icon" href="src/assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/styles/pages/index.css">
     <script src="./src/scripts/index.js" type="module"></script>
 </head>
@@ -41,10 +41,12 @@
 
         <nav class="header__nav">
             <ul class="header__nav__items">
-                <li class="header__nav__items__item" data-i18n="nav.home">Início</li>
-                <li class="header__nav__items__item" data-i18n="nav.about">Sobre mim</li>
-                <li class="header__nav__items__item" data-i18n="nav.projects">Projetos</li>
-                <li class="header__nav__items__item" data-i18n="nav.contact">Contatos</li>
+                <li class="header__nav__items__item header__nav__home nav__home" data-i18n="nav.home">Início</li>
+                <li class="header__nav__items__item header__nav__about nav__about" data-i18n="nav.about">Sobre mim</li>
+                <li class="header__nav__items__item header__nav__projects nav__projects" data-i18n="nav.projects">
+                    Projetos</li>
+                <li class="header__nav__items__item header__nav__contacts nav__contacts" data-i18n="nav.contact">
+                    Contatos</li>
             </ul>
 
             <div class="header__nav__language">
@@ -54,6 +56,7 @@
         </nav>
     </header>
 
+    <div class="overlay"></div>
 
     <main class="home">
         <section class="home__section">
@@ -89,31 +92,33 @@
 
             <nav class="footer__nav">
                 <ul class="footer__nav__items">
-                    <li class="footer__nav__items__item nav__home" data-i18n="nav.home">Início</li>
-                    <li class="footer__nav__items__item nav__about" data-i18n="nav.about">Sobre mim</li>
-                    <li class="footer__nav__items__item nav__projects" data-i18n="nav.projects">Projetos</li>
+                    <li class="footer__nav__items__item footer__nav__home nav__home" data-i18n="nav.home">Início</li>
+                    <li class="footer__nav__items__item footer__nav__about nav__about" data-i18n="nav.about">Sobre mim
+                    </li>
+                    <li class="footer__nav__items__item footer__nav__projects nav__projects" data-i18n="nav.projects">
+                        Projetos</li>
                 </ul>
             </nav>
 
-            <form class="footer__form">
+            <form action="https://formspree.io/f/mnnvqqlg" method="POST" class="footer__form">
                 <h3 class="footer__form__title" data-i18n="footer.form.title">Entre em contato</h3>
 
                 <div class="footer__form__name">
                     <label for="name" data-i18n="footer.form.nameLabel">Seu Nome:</label>
                     <input type="text" id="name" data-placeholder-i18n="footer.form.namePlaceholder"
-                        placeholder="Seu nome..." />
+                        placeholder="Seu nome..." required />
                 </div>
 
                 <div class="footer__form__email">
                     <label for="email" data-i18n="footer.form.emailLabel">Seu Email:</label>
                     <input type="email" id="email" data-placeholder-i18n="footer.form.emailPlaceholder"
-                        placeholder="seuemail@email.com" />
+                        placeholder="seuemail@email.com" required />
                 </div>
 
                 <div class="footer__form__message">
                     <label for="message" data-i18n="footer.form.messageLabel">Sua Mensagem:</label>
                     <textarea id="message" data-placeholder-i18n="footer.form.messagePlaceholder"
-                        placeholder="Sua mensagem.."></textarea>
+                        placeholder="Sua mensagem.." required></textarea>
                 </div>
 
                 <button id="footer__form__send" data-i18n="footer.form.send">Enviar</button>
