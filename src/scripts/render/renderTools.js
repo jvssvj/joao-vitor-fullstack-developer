@@ -1,19 +1,19 @@
-export function renderTools(techImg, techName) {
-    const container = document.querySelector('.techs')
-    const techContainer = document.createElement('div')
+export function renderTools(toolImg, toolName) {
+    const container = document.querySelector('.tools')
+    const toolContainer = document.createElement('div')
     const img = document.createElement('img')
     const span = document.createElement('span')
 
-    img.src = techImg
-    img.alt = `${techName} image`
-    img.classList.add('tech__image')
+    img.src = toolImg
+    img.alt = `${toolName} image`
+    img.classList.add('tool__image')
     img.ariaHidden = true
 
-    span.textContent = techName
-    span.classList.add('tech__name')
+    span.textContent = toolName
+    span.classList.add('tool__name')
 
-    techContainer.classList.add('tech__container')
-    techContainer.append(img, span)
+    toolContainer.classList.add('tool__container')
+    toolContainer.append(img, span)
 
-    container.append(techContainer)
+    container.append(toolContainer)
 }

@@ -1,6 +1,6 @@
 @import url('../global/variables.css');
 
-.techs__container {
+.tools__container {
     width: 100%;
     min-height: 70px;
     max-width: 1500px;
@@ -10,17 +10,17 @@
     border-radius: 1rem;
 }
 
-.techs {
+.tools {
     height: 100%;
     display: flex;
     align-items: center;
     gap: 2rem;
     width: max-content;
     /*//Quebra a animação se colocar 100%*/
-    animation: scrollTechs 50s linear infinite;
+    animation: scrollTools 50s linear infinite;
 }
 
-.tech__container {
+.tool__container {
     display: flex;
     align-items: center;
     gap: .5rem;
@@ -30,16 +30,16 @@
     min-width: max-content;
 }
 
-.tech__image {
+.tool__image {
     width: 30px;
 }
 
-.tech__name {
+.tool__name {
     color: var(--white);
     font-size: var(--font16px);
 }
 
-@keyframes scrollTechs {
+@keyframes scrollTools {
     0% {
         transform: translateX(0);
     }
