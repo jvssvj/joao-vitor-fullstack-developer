@@ -16,7 +16,14 @@
             "description": "Sou João Vitor, desenvolvedor fullstack. Gosto de transformar ideias em soluções reais, criando aplicações completas, do frontend ao backend. Estou sempre buscando aprender e evoluir na área da tecnologia. 🚀"
         },
         "projects": {
-            "title": "Projetos"
+            "title": "Projetos",
+            "project": {
+                "witw": {
+                    "name": "Onde no mundo?",
+                    "description": "Uma aplicação web que permite visualizar informações de todos os países do mundo, com suporte a tema escuro, navegação entre países vizinhos e busca com filtro por continente.",
+                    "liveLink": "Veja o projeto"
+                }
+            }
         },
         "footer": {
             "name": "João Vitor",
@@ -52,7 +59,14 @@
             "description": "I'm João Vitor, a fullstack developer. I like to transform ideas into real solutions, creating complete applications, from frontend to backend. Always seeking to learn and evolve in the technology area. 🚀"
         },
         "projects": {
-            "title": "Projects"
+            "title": "Projects",
+            "project": {
+                "witw": {
+                    "name": "Where in the World?",
+                    "description": "A web application that displays information about all countries in the world, featuring dark mode support, neighbor navigation, and continent-based filtering.",
+                    "liveLink": "View project"
+                }
+            }
         },
         "footer": {
             "name": "João Vitor",

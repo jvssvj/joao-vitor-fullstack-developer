@@ -1,7 +1,8 @@
 [
     {
+        "id": "witw",
         "image": "src/assets/images/projects/witw.jpg",
-        "name": "Where in the World?",
+        "name": "Onde no mundo?",
         "description": "Uma aplicação web que permite visualizar informações de todos os países do mundo, com suporte a tema escuro, navegação entre países vizinhos e busca com filtro por continente.",
         "tools": [
             {

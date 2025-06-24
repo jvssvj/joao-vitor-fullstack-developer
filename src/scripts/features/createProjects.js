@@ -1,16 +1,43 @@
 import { renderProjects } from '../render/renderProjects.js'
 
-export async function createProjects() {
+export async function createProjects(lang) {
+    const container = document.querySelector('.projects__container')
+    container.innerHTML = ''
+
     try {
-        const response = await fetch('src/data/projects.json')
-        const data = await response.json()
+        const [projectsRes, translationsRes] = await Promise.all([
+            fetch('src/data/projects.json'),
+            fetch('src/data/translate.json')
+        ])
 
-        data.forEach(project => {
-            const { name, description, image, liveLink, repositoryLink, tools } = project
+        const projectsData = await projectsRes.json()
+        const translations = await translationsRes.json()
+        const projectTranslations = translations[lang]?.projects?.project || {}
+
+        projectsData.forEach(project => {
+            const {
+                id,
+                name,
+                description,
+                image,
+                liveLink,
+                repositoryLink,
+                tools
+            } = project
+
             const toolsArray = Array.isArray(tools) ? tools : Object.values(tools)
-            renderProjects(name, description, image, liveLink, repositoryLink, toolsArray)
-        })
+            const t = projectTranslations[id] || {}
 
+            renderProjects(
+                t.name || name,
+                t.description || description,
+                image,
+                liveLink,
+                repositoryLink,
+                toolsArray,
+                t.liveLink || 'Explore o Projeto'
+            )
+        })
     } catch (error) {
         console.error('Erro ao carregar projetos:', error)
     }

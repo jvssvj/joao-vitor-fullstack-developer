@@ -1,4 +1,4 @@
-export function renderProjects(name, description, image, liveLink, repositoryLink, tools = []) {
+export function renderProjects(name, description, image, liveLink, repositoryLink, tools = [], liveLinkText = 'Explore o Projeto') {
     const projectContainer = document.createElement('div')
     const projectInfosContainer = document.createElement('section')
 
@@ -32,7 +32,7 @@ export function renderProjects(name, description, image, liveLink, repositoryLin
     projectLive.rel = 'noopener noreferrer'
     projectLive.target = '_blank'
     projectLive.href = liveLink
-    projectLive.textContent = 'Ver Projeto'
+    projectLive.textContent = liveLinkText
 
     projectRepository.classList.add('project__repository')
     projectRepository.rel = 'noopener noreferrer'
