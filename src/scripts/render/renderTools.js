@@ -1,4 +1,4 @@
-export function renderTechs(techImg, techName) {
+export function renderTools(techImg, techName) {
     const container = document.querySelector('.techs')
     const techContainer = document.createElement('div')
     const img = document.createElement('img')

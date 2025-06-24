@@ -1,0 +1,42 @@
+[
+    {
+        "name": "HTML5",
+        "image": "./src/assets/images/tools/html5.svg"
+    },
+    {
+        "name": "CSS3",
+        "image": "./src/assets/images/tools/css3.svg"
+    },
+    {
+        "name": "JavaScript",
+        "image": "./src/assets/images/tools/javascript.svg"
+    },
+    {
+        "name": "TypeScript",
+        "image": "./src/assets/images/tools/typescript.svg"
+    },
+    {
+        "name": "Git",
+        "image": "./src/assets/images/tools/git.svg"
+    },
+    {
+        "name": "GitHub",
+        "image": "./src/assets/images/tools/github.svg"
+    },
+    {
+        "name": "Node.js",
+        "image": "./src/assets/images/tools/nodejs.svg"
+    },
+    {
+        "name": "PostgreSQL",
+        "image": "./src/assets/images/tools/postgresql.svg"
+    },
+    {
+        "name": "Photoshop",
+        "image": "./src/assets/images/tools/photoshop.svg"
+    },
+    {
+        "name": "Figma",
+        "image": "./src/assets/images/tools/figma.svg"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "image": "src/assets/images/projects/witw.jpg",
+        "name": "Where in the World?",
+        "description": "Uma aplicação web que permite visualizar informações de todos os países do mundo, com suporte a tema escuro, navegação entre países vizinhos e busca com filtro por continente.",
+        "tools": [
+            {
+                "name": "HTML5",
+                "image": "src/assets/images/tools/html5.svg"
+            },
+            {
+                "name": "CSS3",
+                "image": "src/assets/images/tools/css3.svg"
+            },
+            {
+                "name": "TypeScript",
+                "image": "src/assets/images/tools/typescript.svg"
+            },
+            {
+                "name": "Webpack",
+                "image": "src/assets/images/tools/webpack.svg"
+            }
+        ],
+        "liveLink": "https://witw-map.vercel.app/",
+        "repositoryLink": "https://github.com/jvssvj/where-in-the-world"
+    }
+]

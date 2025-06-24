@@ -1,18 +1,18 @@
-import { renderTechs } from '../render/renderTechs.js'
+import { renderTools } from '../render/renderTools.js'
 
-export async function createTechs() {
+export async function createTools() {
     try {
-        const response = await fetch('src/data/techs.json')
+        const response = await fetch('src/data/tools.json')
         const data = await response.json()
 
         data.forEach(tech => {
             const { image, name } = tech
-            renderTechs(image, name)
+            renderTools(image, name)
         })
 
         data.forEach(tech => {
             const { image, name } = tech
-            renderTechs(image, name)
+            renderTools(image, name)
         })
 
         const techsElement = document.querySelector('.techs')

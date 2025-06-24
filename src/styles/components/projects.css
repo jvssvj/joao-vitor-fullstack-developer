@@ -3,7 +3,6 @@
 .projects {
     width: 100%;
     max-width: 1500px;
-    min-height: 575px;
     padding: 0em 1em;
     display: flex;
     flex-direction: column;
@@ -21,8 +20,83 @@
 
 .projects__container {
     width: 100%;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.project__container {
+    width: 100%;
+    max-width: 350px;
+    background-color: var(--white);
+    border-radius: 1rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.project__infos__container {
+    padding: 1rem;
+}
+
+.project__name {
+    font-size: var(--font24px);
+    color: var(--very-dark-blue);
+}
+
+.project__description {
+    font-size: var(--font16px);
+    color: var(--grey);
+    margin: .5rem 0rem 1rem;
+}
+
+.project__img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 1rem;
+}
+
+.project__tools {
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+    gap: .5rem;
+    margin: 1.5rem 0em;
+}
+
+.project__tools__img {
+    width: 25px;
+}
+
+.project__btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: .7em;
+}
+
+.project__live,
+.project__repository {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 150px;
+    height: 45px;
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    font-size: var(--font16px);
+    border-radius: 2rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+@media(max-width:396px) {
+    .project__btns {
+        justify-content: center;
+    }
+
+    .project__live,
+    .project__repository {
+        width: 100%;
+    }
 }
