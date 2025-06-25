@@ -17,6 +17,7 @@ export function renderProjects(name, description, image, liveLink, repositoryLin
     projectInfosContainer.classList.add('project__infos__container')
 
     projectImage.src = image
+    projectImage.alt = `Imagem do projeto`
     projectImage.classList.add('project__img')
     projectName.textContent = name
     projectName.classList.add('project__name')

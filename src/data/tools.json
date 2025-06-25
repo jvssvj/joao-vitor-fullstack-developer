@@ -1,42 +1,42 @@
 [
     {
         "name": "HTML5",
-        "image": "./src/assets/images/tools/html5.svg"
+        "image": "./src/assets/images/tools/html5.png"
     },
     {
         "name": "CSS3",
-        "image": "./src/assets/images/tools/css3.svg"
+        "image": "./src/assets/images/tools/css3.png"
     },
     {
         "name": "JavaScript",
-        "image": "./src/assets/images/tools/javascript.svg"
+        "image": "./src/assets/images/tools/javascript.png"
     },
     {
         "name": "TypeScript",
-        "image": "./src/assets/images/tools/typescript.svg"
+        "image": "./src/assets/images/tools/typescript.png"
     },
     {
         "name": "Git",
-        "image": "./src/assets/images/tools/git.svg"
+        "image": "./src/assets/images/tools/git.png"
     },
     {
         "name": "GitHub",
-        "image": "./src/assets/images/tools/github.svg"
+        "image": "./src/assets/images/tools/github.png"
     },
     {
         "name": "Node.js",
-        "image": "./src/assets/images/tools/nodejs.svg"
+        "image": "./src/assets/images/tools/nodejs.png"
     },
     {
         "name": "PostgreSQL",
-        "image": "./src/assets/images/tools/postgresql.svg"
+        "image": "./src/assets/images/tools/postgresql.png"
     },
     {
         "name": "Photoshop",
-        "image": "./src/assets/images/tools/photoshop.svg"
+        "image": "./src/assets/images/tools/photoshop.png"
     },
     {
         "name": "Figma",
-        "image": "./src/assets/images/tools/figma.svg"
+        "image": "./src/assets/images/tools/figma.png"
     }
 ]

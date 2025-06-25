@@ -7,19 +7,19 @@
         "tools": [
             {
                 "name": "HTML5",
-                "image": "src/assets/images/tools/html5.svg"
+                "image": "src/assets/images/tools/html5.png"
             },
             {
                 "name": "CSS3",
-                "image": "src/assets/images/tools/css3.svg"
+                "image": "src/assets/images/tools/css3.png"
             },
             {
                 "name": "TypeScript",
-                "image": "src/assets/images/tools/typescript.svg"
+                "image": "src/assets/images/tools/typescript.png"
             },
             {
                 "name": "Webpack",
-                "image": "src/assets/images/tools/webpack.svg"
+                "image": "src/assets/images/tools/webpack.png"
             }
         ],
         "liveLink": "https://witw-map.vercel.app/",
