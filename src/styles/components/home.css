@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0 0 2rem 2rem;
+    position: relative;
 }
 
 .home__section {
@@ -41,6 +41,42 @@
 .home__section__question {
     display: block;
     font-weight: var(--fontBold);
+}
+
+.container__mouse {
+    position: absolute;
+    bottom: 2em;
+}
+
+.mouse__btn {
+    margin: 10px auto;
+    width: 20px;
+    height: 40px;
+    border: 2px solid rgba(122, 122, 124, 0.918);
+    border-radius: 20px;
+    display: flex;
+}
+
+.mouse__scroll {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(170deg, rgba(122, 122, 124, 0.918), rgb(123, 124, 124));
+    border-radius: 50%;
+    margin: auto;
+    animation: scrolling13 1s linear infinite;
+}
+
+@keyframes scrolling13 {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
 }
 
 
