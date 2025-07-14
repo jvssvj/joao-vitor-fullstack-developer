@@ -14,7 +14,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-size: var(--font24px);
-    background-color: var(--very-dark-blue);
+    background-color: var(--very-dark-grey);
 }
 
 .overlay {
