@@ -3,12 +3,14 @@
 :root {
     --black: #000000;
     --dark-grey: #2B2A2A;
-    --very-dark-blue: #000B1B;
+    --very-dark-grey: #121212;
     --white: #FFF9FF;
-    --dark-blue: #121D2D;
-    --grey: #475464;
-    --background-gradient-home: linear-gradient(149deg, rgba(43, 42, 42, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    --background-gradient-footer: linear-gradient(90deg, rgb(4, 17, 37) 0%, rgba(39, 62, 96, 1) 60%);
+    --grey: #282828;
+    --light-grey: #353535;
+    --very-light-grey: #ADADAD;
+    --orange: #FF4C00;
+
+    --background-gradient-home-footer: linear-gradient(149deg, rgba(43, 42, 42, 1) 0%, rgba(0, 0, 0, 1) 100%);
 
     --fontPoppins: "Poppins", sans-serif;
 
