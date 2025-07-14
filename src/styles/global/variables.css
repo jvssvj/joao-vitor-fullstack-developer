@@ -11,6 +11,8 @@
     --orange: #FF4C00;
 
     --background-gradient-home: linear-gradient(149deg, rgba(43, 42, 42, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    --background-gradient-footer: linear-gradient(195deg, rgba(43, 42, 42, 1) 0%, rgba(0, 0, 0, 1) 88%);
+    ;
 
     --fontPoppins: "Poppins", sans-serif;
 
