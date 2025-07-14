@@ -20,7 +20,7 @@
             "project": {
                 "witw": {
                     "name": "Onde no mundo?",
-                    "description": "Uma aplicação web que permite visualizar informações de todos os países do mundo, com suporte a tema escuro, navegação entre países vizinhos e busca com filtro por continente.",
+                    "description": "O projeto Where in the world? é uma aplicação web dinâmica que apresenta dados completos sobre todos os países do mundo, com base na REST Countries API. Desenvolvido com foco em usabilidade e experiência visual, o sistema permite ao usuário explorar países por meio de uma busca inteligente, que pode ser combinada com filtros por continente. Ao clicar em um país, uma página dedicada exibe detalhes como bandeira, população, idioma, moeda, sub-região, domínio e países fronteiriços, permitindo também a navegação entre eles de forma fluida. A interface conta com suporte a tema escuro e animações que enriquecem a interação, mantendo o projeto leve e responsivo em diferentes dispositivos.",
                     "liveLink": "Veja o projeto"
                 }
             }
@@ -63,7 +63,7 @@
             "project": {
                 "witw": {
                     "name": "Where in the World?",
-                    "description": "A web application that displays information about all countries in the world, featuring dark mode support, neighbor navigation, and continent-based filtering.",
+                    "description": "The Where in the World? project is a dynamic web application that presents comprehensive data on all countries in the world, based on the REST Countries API. Developed with a focus on usability and visual experience, the system allows users to explore countries through an intelligent search, which can be combined with filters by continent. When clicking on a country, a dedicated page displays details such as flag, population, language, currency, subregion, domains, and neighboring countries, also allowing for fluid navigation between them. The interface supports a dark theme and animations that enhance interaction, keeping the project lightweight and responsive across devices.",
                     "liveLink": "View project"
                 }
             }

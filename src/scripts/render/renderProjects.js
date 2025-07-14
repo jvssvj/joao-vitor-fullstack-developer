@@ -1,4 +1,6 @@
-export function renderProjects(name, description, image, liveLink, repositoryLink, tools = [], liveLinkText = 'Explore o Projeto') {
+export function renderProjects(name, description, image, liveLink, repositoryLink, tools = [], liveLinkText) {
+    const lineTop = document.createElement('div')
+
     const projectContainer = document.createElement('div')
     const projectInfosContainer = document.createElement('section')
 
@@ -12,6 +14,7 @@ export function renderProjects(name, description, image, liveLink, repositoryLin
     const projectLive = document.createElement('a')
     const projectRepository = document.createElement('a')
 
+    const lineBottom = document.createElement('div')
 
     projectContainer.classList.add('project__container')
     projectInfosContainer.classList.add('project__infos__container')
@@ -42,16 +45,18 @@ export function renderProjects(name, description, image, liveLink, repositoryLin
     projectRepository.textContent = 'GitHub Repo'
 
     tools.forEach(tool => {
-        const toolImage = document.createElement('img')
-        toolImage.classList.add('project__tools__img')
-        toolImage.src = tool.image
-        toolImage.alt = tool.name
+        const toolName = document.createElement('span')
+        toolName.classList.add('project__tools__name')
+        toolName.textContent = tool
 
-        toolsContainer.append(toolImage)
+        toolsContainer.append(toolName)
     })
+
+    lineTop.classList.add('line__top')
+    lineBottom.classList.add('line__bottom')
 
     projectInfosContainer.append(projectName, projectDescription, toolsContainer, projectBtnsContainer)
 
     projectContainer.append(projectImage, projectInfosContainer)
-    document.querySelector('.projects__container').append(projectContainer)
+    document.querySelector('.projects__container').append(lineTop, projectContainer, lineBottom)
 }

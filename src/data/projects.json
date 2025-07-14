@@ -3,24 +3,13 @@
         "id": "witw",
         "image": "src/assets/images/projects/witw.jpg",
         "name": "Onde no mundo?",
-        "description": "Uma aplicação web que permite visualizar informações de todos os países do mundo, com suporte a tema escuro, navegação entre países vizinhos e busca com filtro por continente.",
+        "description": "O projeto Where in the world? é uma aplicação web dinâmica que apresenta dados completos sobre todos os países do mundo, com base na REST Countries API. Desenvolvido com foco em usabilidade e experiência visual, o sistema permite ao usuário explorar países por meio de uma busca inteligente, que pode ser combinada com filtros por continente. Ao clicar em um país, uma página dedicada exibe detalhes como bandeira, população, idioma, moeda, sub-região, domínio e países fronteiriços, permitindo também a navegação entre eles de forma fluida. A interface conta com suporte a tema escuro e animações que enriquecem a interação, mantendo o projeto leve e responsivo em diferentes dispositivos.",
         "tools": [
-            {
-                "name": "HTML5",
-                "image": "src/assets/images/tools/html5.png"
-            },
-            {
-                "name": "CSS3",
-                "image": "src/assets/images/tools/css3.png"
-            },
-            {
-                "name": "TypeScript",
-                "image": "src/assets/images/tools/typescript.png"
-            },
-            {
-                "name": "Webpack",
-                "image": "src/assets/images/tools/webpack.png"
-            }
+            "HTML5",
+            "CSS3",
+            "TypeScript",
+            "Webpack",
+            "GSAP"
         ],
         "liveLink": "https://witw-map.vercel.app/",
         "repositoryLink": "https://github.com/jvssvj/where-in-the-world"
