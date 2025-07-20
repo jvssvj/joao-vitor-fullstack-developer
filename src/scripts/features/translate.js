@@ -35,6 +35,8 @@ function applyTranslations() {
 
 function selectLanguage() {
     const buttons = document.querySelectorAll('.header__nav__language__btn')
+    const pt = document.querySelector('#pt')
+    pt.classList.add('language-active')
     buttons.forEach(btn => {
         btn.addEventListener('click', () => {
             const lang = btn.id

@@ -52,15 +52,19 @@
 }
 
 .header__nav__language__btn {
-    transition: .2s ease-in;
+    transition: .3s ease-in;
     outline: none;
+    font-weight: var(--fontBold);
 }
 
 /* in JS */
 /* in JS */
 .language-active {
-    font-weight: var(--fontBold);
+    color: var(--orange);
 }
+
+/* in JS */
+/* in JS */
 
 .header__nav__items__item {
     position: relative;
