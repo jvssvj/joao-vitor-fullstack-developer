@@ -1,11 +1,14 @@
 function headerEffect() {
     const header = document.querySelector('.header')
+    const headerNav = document.querySelector('.header__nav')
 
     window.addEventListener('scroll', () => {
         if (window.scrollY > 100) {
             header.classList.remove('transparent')
             header.classList.add('scrolled')
+            headerNav.classList.add('width__animation')
         } else {
+            headerNav.classList.remove('width__animation')
             header.classList.remove('scrolled')
             header.classList.add('transparent')
         }

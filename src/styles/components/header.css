@@ -2,28 +2,34 @@
 @import url('../components/menuHamburguer.css');
 
 .header {
-    height: 70px;
+    height: 150px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
-    transition: .3s ease;
+    transition: all .3s ease;
     z-index: 3;
 }
 
 .header.scrolled {
+    height: 70px;
     background: var(--black);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .header__nav {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0em 1em;
+    transition: max-width 0.3s ease, padding 0.3s ease;
+}
+
+.header__nav.width__animation {
+    max-width: 1500px;
 }
 
 .header__nav__items {
