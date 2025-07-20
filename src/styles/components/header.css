@@ -65,9 +65,9 @@
     content: '';
     width: 0%;
     height: 3px;
-    background-color: var(--white);
+    background-color: var(--orange);
     position: absolute;
-    bottom: 0;
+    bottom: -.2rem;
     left: 0;
     transition: .5s ease;
 }

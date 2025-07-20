@@ -107,7 +107,7 @@
     font-size: var(--font16px);
     border-radius: .5rem;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    transition: .2s ease;
+    transition: .5s ease;
 }
 
 .project__live::before,
