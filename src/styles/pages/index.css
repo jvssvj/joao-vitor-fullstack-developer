@@ -17,6 +17,10 @@ body {
     background-color: var(--very-dark-grey);
 }
 
+.overflow__hidden {
+    overflow-y: hidden;
+}
+
 .overlay {
     position: fixed;
     z-index: 2;

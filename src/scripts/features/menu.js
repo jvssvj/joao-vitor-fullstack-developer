@@ -18,8 +18,10 @@ function headerEffect() {
 function openCloneMenu() {
     const nav = document.querySelector('.header__nav')
     const overlay = document.querySelector('.overlay')
+    const body = document.querySelector('body')
     nav.classList.toggle('open')
     overlay.classList.toggle('visible')
+    body.classList.toggle('overflow__hidden')
 }
 
 export function menu() {
